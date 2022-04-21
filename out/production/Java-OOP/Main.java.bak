@@ -1,0 +1,15 @@
+class Main{
+      
+	  public static void main(string args[]){
+		  Stack myStack = new Stack();
+		  
+		for(int i=0 ; i<15; i++){
+			System.out.println("Pushing the item: "+i);
+			myStack.push(i);
+		}
+		
+		
+		for(int i=0 ; i<15 ; i++){
+			System.out.println("popping",+myStack.pop());
+			
+}
