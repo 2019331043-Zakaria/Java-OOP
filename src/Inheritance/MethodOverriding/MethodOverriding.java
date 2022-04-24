@@ -12,7 +12,7 @@ class Person{
 class Teacher extends Person{
      String subject;
 
-    @Override                        //Can't override static method
+    @Override                        //Can't override static,Final method
     void displayInformation() {
         System.out.println(name);
         System.out.println(age);
